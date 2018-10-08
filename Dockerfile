@@ -13,6 +13,7 @@ RUN apk add --no-cache \
     py2-lxml \
     boost \
     boost-python \
+    libtorrent \
 
 RUN apk add --no-cache --virtual=build-dependencies \
     --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \
